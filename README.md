@@ -12,7 +12,7 @@ Full Cleaner Pipeline
 ```
 "C:\Program Files\Blender Foundation\Blender 3.6\blender.exe" --background --python fbx_anim_cleaner.py -- "C:\Path\InputFBX" "C:\Path\OutputGLB"
 ```
---
+
 author:
 --
 <img src="https://i.postimg.cc/F16xhxs4/avatar.png" alt="My Avatar" width="32" />
