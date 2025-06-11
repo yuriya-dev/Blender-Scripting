@@ -17,6 +17,7 @@ author:
 --
 <p align="center">
   <a href="https://github.com/yuriya-dev" target="_blank">
-    <img src="https://i.postimg.cc/F16xhxs4/avatar.png" alt="My Avatar" width="32" /> yuriya-dev
+    <img src="https://i.postimg.cc/F16xhxs4/avatar.png" alt="My Avatar" width="32" />
   </a>
+  yuriya-dev
 </p>
