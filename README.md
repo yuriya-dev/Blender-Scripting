@@ -15,9 +15,9 @@ Full Cleaner Pipeline
 
 author:
 --
-<p align="center">
+<p align="center" >
   <a href="https://github.com/yuriya-dev" target="_blank">
     <img src="https://i.postimg.cc/F16xhxs4/avatar.png" alt="My Avatar" width="32" />
   </a>
-  yuriya-dev
+  | yuriya-dev
 </p>
