@@ -15,4 +15,4 @@ Full Cleaner Pipeline
 
 author:
 --
-<img src="https://i.postimg.cc/F16xhxs4/avatar.png" alt="My Avatar" width="32" /> | yuriya-dev
+<img src="https://i.postimg.cc/F16xhxs4/avatar.png" alt="My Avatar" width="25" /> | yuriya-dev
