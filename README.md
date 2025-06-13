@@ -1,5 +1,5 @@
 # FBX-Anim-Cleaner
-Full Cleaner Pipeline
+Memisahkan mesh dengan animasi
 
 ✅ Input: folder berisi banyak FBX animasi (masih ada mesh di dalamnya)
 ✅ Output: anim-only GLB (atau FBX bersih)
