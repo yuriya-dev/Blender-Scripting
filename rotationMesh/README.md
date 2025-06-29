@@ -1,31 +1,35 @@
-# Infinite rotate animation
-Add frame/5 (or -frame/5) expression to Rotation Z
+# Infinite Rotate Animation in Blender
+This script adds an infinite rotation animation to objects by applying a driver to the X/Y/Z-axis rotation using the expression -frame (clockwise) / 5 and frame/5 (counterclockwise)
 
-- Open Blender scripting and then paste the code
-- click alt + P to run the script
+How to Use
+Open the Scripting tab in Blender.
+- Replace "Mesh_Name" in the script with the actual names of your objects.
+- Paste the script into the text editor.
+- Press Alt + P to run the script
 
+# Script
 ```
 import bpy
 
-# Daftar nama objek roda
-roda_list = ["Mesh_Name", "Mesh_Name"]
+# List of object names to rotate
+nesh_list = ["Mesh_Name", "Mesh_Name"]
 
-for name in roda_list:
+for name in mesh_list:
     obj = bpy.data.objects.get(name)
     if obj:
-        # Tambah driver ke rotasi Y (sumbu 1)
-        fcurve = obj.driver_add("rotation_euler", 1)
+        # Add driver to Y-axis rotation (index 1) or X-axis rotation (index 0) or Z-axis rotation (index 3)
+        fcurve = obj.driver_add("rotation_euler", 1) # (0/1/2)
 
-        # Ambil driver
+         # Get the driver
         driver = fcurve.driver
         driver.type = 'SCRIPTED'
 
-        # Hapus variabel lama
+        # Remove existing variables
         while driver.variables:
             driver.variables.remove(driver.variables[0])
 
-        # Ekspresi putar
-        driver.expression = "-frame / 5"
+        # Set driver expression "-frame / 5" or "frame / 5"
+        driver.expression = "-frame / 5" # 
     else:
-        print(f"Objek '{name}' tidak ditemukan")
+        print(f"Objek '{name}' not found.")
 ```
