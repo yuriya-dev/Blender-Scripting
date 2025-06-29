@@ -11,7 +11,7 @@ Memisahkan mesh dengan animasi
 💻 Jalankan via Command Line (tanpa buka Blender GUI)
 -> pastikan path folder sudah sesuai
 ```
-"C:\Program Files\Blender Foundation\Blender 3.6\blender.exe" --background --python D:\Path\fbx_anim_cleaner.py" -- "C:\Path\InputFBX" "C:\Path\OutputGLB"
+"C:\Program Files\Blender Foundation\Blender 3.6\blender.exe" --background --python C:\Path\fbx_anim_cleaner.py" -- "C:\Path\InputFBX" "C:\Path\OutputGLB"
 ```
 
 author:
