@@ -1,5 +1,5 @@
 # Infinite Rotate Animation in Blender
-This script adds an infinite rotation animation to objects by applying a driver to the X/Y/Z-axis rotation using the expression -frame (clockwise) / 5 and frame/5 (counterclockwise)
+This script adds an infinite rotation animation to objects by applying a driver to the X/Y/Z-axis rotation using the expression -frame / 5 (clockwise) and frame/5 (counterclockwise)
 
 How to Use
 Open the Scripting tab in Blender.
@@ -29,7 +29,7 @@ for name in mesh_list:
             driver.variables.remove(driver.variables[0])
 
         # Set driver expression "-frame / 5" or "frame / 5"
-        driver.expression = "-frame / 5" # 
+        driver.expression = "-frame / 5" # "-frame / 5" (clockwise) and "frame/5" (counterclockwise)
     else:
         print(f"Objek '{name}' not found.")
 ```
