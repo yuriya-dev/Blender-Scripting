@@ -9,7 +9,7 @@ Script ini digunakan untuk mengonversi semua file PNG di folder input menjadi JP
 
 ## Struktur Folder
 ```
-D:\Folder
+D:\PNG_to_JPG
 ├── png\ # Folder input file PNG
 ├── jpg\ # Folder output file JPG
 └── png_to_jpg.py # Script Python
