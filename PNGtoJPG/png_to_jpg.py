@@ -2,8 +2,8 @@ from PIL import Image
 import os
 
 # Path input & output
-input_folder = r"D:\PATH\png"
-output_folder = r"D:\PATH\jpg"
+input_folder = r"D:\PNG_to_JPG\png"
+output_folder = r"D:\PNG_to_JPG"
 
 # Buat folder output kalau belum ada
 os.makedirs(output_folder, exist_ok=True)
