@@ -8,10 +8,12 @@ Script ini digunakan untuk mengonversi semua file PNG di folder input menjadi JP
 - Mempertahankan kualitas asli (quality=100)
 
 ## Struktur Folder
+```
 D:\Folder
 ├── png\ # Folder input file PNG
 ├── jpg\ # Folder output file JPG
 └── png_to_jpg.py # Script Python
+```
 
 ## Cara Menjalankan
 1. Pastikan **Python** sudah terinstal di komputer.
